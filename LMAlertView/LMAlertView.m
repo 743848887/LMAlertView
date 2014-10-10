@@ -44,6 +44,8 @@
     self = [super init];
     if (self) {
         [self setupWithSize:size];
+        
+        NSLog(@"%@", @"123");
     }
     return self;
 }
